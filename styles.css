@@ -1,0 +1,110 @@
+/* Mengatur gaya dasar untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif; /* Menggunakan font Arial atau sans-serif sebagai cadangan */
+    margin: 0; /* Menghapus margin bawaan */
+    padding: 0; /* Menghapus padding bawaan */
+    text-align: center; /* Menengahkan teks secara default */
+}
+
+/* Styling untuk header */
+header {
+    background: #333; /* Warna latar belakang abu-abu gelap */
+    color: white; /* Warna teks putih */
+    padding: 20px; /* Memberikan ruang di dalam header */
+}
+
+/* Mengatur daftar navigasi */
+nav ul {
+    list-style: none; /* Menghilangkan bullet points */
+    padding: 0; /* Menghapus padding */
+}
+
+/* Menata item dalam navigasi agar sejajar */
+nav ul li {
+    display: inline; /* Menjadikan item dalam satu baris */
+    margin: 0 15px; /* Memberi jarak antar item */
+}
+
+/* Styling untuk link dalam navigasi */
+nav ul li a {
+    color: white; /* Warna teks putih */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+/* Styling untuk gambar utama */
+.featured-image {
+    max-width: 100%; /* Maksimal lebar mengikuti container */
+    height: auto; /* Menjaga proporsi gambar */
+    width: 50%; /* Gambar mengambil 50% dari lebar container */
+    margin: 20px 0; /* Memberikan jarak atas dan bawah */
+    border-radius: 10px; /* Membuat sudut gambar melengkung */
+}
+
+/* Styling untuk konten utama */
+main {
+    padding: 20px; /* Memberikan ruang di dalam konten utama */
+}
+
+/* Styling untuk daftar */
+.ul {
+    list-style-position: inside; /* Menampilkan bullet di dalam elemen */
+    text-align: center; /* Menengahkan teks */
+    padding: 0; /* Menghapus padding */
+    margin-left: 20px; /* Memberikan margin kiri */
+}
+
+/* Styling untuk area konten */
+.content {
+    max-width: 900px; /* Membatasi lebar maksimum */
+    margin: 0 auto; /* Membuat konten berada di tengah */
+    text-align: justify; /* Menjadikan teks rata kanan-kiri */
+}
+
+/* Styling untuk tombol "Read More" */
+.read-more {
+    display: inline-block; /* Membuat tombol tetap inline tapi bisa diberi padding */
+    margin-top: 15px; /* Memberikan jarak ke atas */
+    padding: 10px 20px; /* Memberikan ruang di dalam tombol */
+    background: #007bff; /* Warna biru */
+    color: white; /* Warna teks putih */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+}
+
+/* Efek hover pada tombol "Read More" */
+.read-more:hover {
+    background: #0056b3; /* Warna lebih gelap saat dihover */
+}
+
+/* Styling untuk ikon kontak */
+.contact-icons {
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Membuat ikon berada di tengah */
+    gap: 20px; /* Jarak antar ikon */
+    margin-top: 20px; /* Memberikan jarak ke atas */
+}
+
+/* Menghilangkan garis bawah pada link ikon */
+.contact-icons a {
+    text-decoration: none;
+}
+
+/* Mengatur ukuran ikon gambar */
+.contact-icons img {
+    width: 50px; /* Lebar ikon */
+    height: 50px; /* Tinggi ikon */
+    transition: transform 0.3s ease-in-out; /* Efek transisi saat dihover */
+}
+
+/* Efek hover pada ikon */
+.contact-icons img:hover {
+    transform: scale(1.2); /* Membesarkan ikon saat dihover */
+}
+
+/* Styling untuk footer */
+footer {
+    background: #333; /* Warna latar belakang abu-abu gelap */
+    color: white; /* Warna teks putih */
+    padding: 10px; /* Memberikan padding di dalam footer */
+    margin-top: 20px; /* Memberikan jarak ke atas */
+}

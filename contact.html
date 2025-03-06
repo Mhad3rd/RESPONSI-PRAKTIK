@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id"> <!-- Mendefinisikan dokumen HTML dengan bahasa Indonesia -->
+<head>
+    <meta charset="UTF-8"> <!-- Mengatur karakter encoding ke UTF-8 agar mendukung berbagai simbol dan karakter -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Menyesuaikan tampilan untuk perangkat mobile -->
+    <title>Hubungi Kami</title> <!-- Judul halaman yang muncul di tab browser -->
+    <link rel="stylesheet" href="styles.css"> <!-- Menghubungkan file CSS eksternal untuk styling -->
+</head>
+<body>
+    <header> <!-- Bagian header halaman -->
+        <h1>Hubungi Kami</h1> <!-- Judul utama halaman -->
+        <nav> <!-- Navigasi menu -->
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Link ke halaman utama -->
+                <li><a href="article.html">Article</a></li> <!-- Link ke halaman artikel -->
+                <li><a href="contact.html">Contact</a></li> <!-- Link ke halaman kontak -->
+            </ul>
+        </nav>
+    </header>
+    <main> <!-- Bagian utama halaman -->
+        <section> <!-- Seksi untuk bagian kontak -->
+            <h2>Kontak</h2> <!-- Subjudul -->
+            <p>Jika Anda memiliki pertanyaan mengenai perkembangan AI, jangan ragu untuk menghubungi kami melalui formulir di bawah ini.</p>
+            
+            <form> <!-- Formulir kontak -->
+                <label for="name">Nama:</label> <!-- Label untuk input nama -->
+                <input type="text" id="name" name="name" required> <!-- Input teks untuk nama dengan atribut wajib diisi -->
+                
+                <label for="email">Email:</label> <!-- Label untuk input email -->
+                <input type="email" id="email" name="email" required> <!-- Input email dengan validasi bawaan -->
+                
+                <label for="message">Pesan:</label> <!-- Label untuk textarea -->
+                <textarea id="message" name="message" rows="4" required></textarea> <!-- Input pesan dengan beberapa baris -->
+                
+                <button type="submit">Kirim</button> <!-- Tombol untuk mengirim formulir -->
+            </form>
+
+            <div class="contact-icons"> <!-- Bagian ikon media sosial -->
+                <a href="mailto:muhammadhafizhariodiffo@gmail.com" target="_blank"> <!-- Link ke email -->
+                    <img src="logo-gmail.jpg" alt="Email Icon"> <!-- Ikon Gmail -->
+                </a>
+                <a href="https://wa.me/62811732654" target="_blank"> <!-- Link ke WhatsApp -->
+                    <img src="logo-wa.jpg" alt="WhatsApp Icon"> <!-- Ikon WhatsApp -->
+                </a>
+                <a href="https://instagram.com/diffohfzhr_" target="_blank"> <!-- Link ke Instagram -->
+                    <img src="logo-ig.jpg" alt="Instagram Icon"> <!-- Ikon Instagram -->
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer> <!-- Bagian footer halaman -->
+        <p>&copy; 2025 AI Trends. Semua Hak Dilindungi.</p> <!-- Hak cipta -->
+    </footer>
+</body>
+</html>
